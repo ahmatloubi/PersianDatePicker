@@ -15,6 +15,10 @@
 		606FFE132CC8F2EB00020D8E /* PersianDatePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606FFE122CC8F2EB00020D8E /* PersianDatePickerUITests.swift */; };
 		606FFE152CC8F2EB00020D8E /* PersianDatePickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606FFE142CC8F2EB00020D8E /* PersianDatePickerUITestsLaunchTests.swift */; };
 		606FFE222CC8F30F00020D8E /* PersianDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606FFE212CC8F30F00020D8E /* PersianDatePicker.swift */; };
+		60B22D3E2CCA820800D61995 /* DateGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B22D3D2CCA820800D61995 /* DateGenerator.swift */; };
+		60B22D412CCA826E00D61995 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B22D402CCA826E00D61995 /* Date.swift */; };
+		60B22D432CCA828C00D61995 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B22D422CCA828C00D61995 /* Day.swift */; };
+		60B22D452CCA82AC00D61995 /* DayName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B22D442CCA82AC00D61995 /* DayName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		606FFE122CC8F2EB00020D8E /* PersianDatePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersianDatePickerUITests.swift; sourceTree = "<group>"; };
 		606FFE142CC8F2EB00020D8E /* PersianDatePickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersianDatePickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		606FFE212CC8F30F00020D8E /* PersianDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersianDatePicker.swift; sourceTree = "<group>"; };
+		60B22D3D2CCA820800D61995 /* DateGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateGenerator.swift; sourceTree = "<group>"; };
+		60B22D402CCA826E00D61995 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		60B22D422CCA828C00D61995 /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		60B22D442CCA82AC00D61995 /* DayName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,8 @@
 				606FFDF72CC8F2E900020D8E /* PersianDatePickerApp.swift */,
 				606FFDF92CC8F2E900020D8E /* ContentView.swift */,
 				606FFE212CC8F30F00020D8E /* PersianDatePicker.swift */,
+				60B22D3F2CCA825A00D61995 /* extension */,
+				60B22D3C2CCA81F900D61995 /* Model */,
 				606FFDFB2CC8F2EB00020D8E /* Assets.xcassets */,
 				606FFDFD2CC8F2EB00020D8E /* Preview Content */,
 			);
@@ -128,6 +138,24 @@
 				606FFE142CC8F2EB00020D8E /* PersianDatePickerUITestsLaunchTests.swift */,
 			);
 			path = PersianDatePickerUITests;
+			sourceTree = "<group>";
+		};
+		60B22D3C2CCA81F900D61995 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				60B22D3D2CCA820800D61995 /* DateGenerator.swift */,
+				60B22D422CCA828C00D61995 /* Day.swift */,
+				60B22D442CCA82AC00D61995 /* DayName.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60B22D3F2CCA825A00D61995 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				60B22D402CCA826E00D61995 /* Date.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,8 +289,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				606FFDFA2CC8F2E900020D8E /* ContentView.swift in Sources */,
+				60B22D412CCA826E00D61995 /* Date.swift in Sources */,
+				60B22D452CCA82AC00D61995 /* DayName.swift in Sources */,
+				60B22D432CCA828C00D61995 /* Day.swift in Sources */,
 				606FFDF82CC8F2E900020D8E /* PersianDatePickerApp.swift in Sources */,
 				606FFE222CC8F30F00020D8E /* PersianDatePicker.swift in Sources */,
+				60B22D3E2CCA820800D61995 /* DateGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
